@@ -1,0 +1,52 @@
+# Node.js dependencies
+server/node_modules/
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+
+# Logs
+server/logs/
+server/*.log
+server/*.log.*
+
+# Environment variables
+server/.env
+server/.env.local
+server/.env.*.local
+
+# Build output
+server/dist/
+server/build/
+server/out/
+
+# Temporary files
+server/*.tmp
+server/*.temp
+server/*.swp
+server/*.swo
+server/*.bak
+
+# IDE specific files
+server/.vscode/
+server/.idea/
+server/*.iml
+
+# OS generated files
+server/.DS_Store
+server/Thumbs.db
+
+# Git specific files
+server/.git/
+server/.gitignore
+server/*.orig
+
+# Coverage reports
+server/coverage/
+server/*.lcov
+
+# Miscellaneous
+server/*.lock
+server/*.cache
+server/*.pid
+server/*.seed
+server/*.pid.lock
